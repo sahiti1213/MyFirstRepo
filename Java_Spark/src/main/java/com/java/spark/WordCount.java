@@ -25,6 +25,8 @@ public class WordCount {
 							"Developing Java Applications In Apache Spark",
 							"Getting Started With RDDs In Apache Spark "
 					);
+					
+					
 					// Split the sentences into words, convert words to key, value with key as word and value 1, 
 					// and finally count the occurrences of a word
 					/*final Map<String, Object> wordsCount = jSC.parallelize(sentences)
